@@ -1,0 +1,26 @@
+// Solution for Problem 2: 
+
+Manual Test Cases:  
+
+TC1: Check login with valid and invalid username and password
+TC2: Check registration functionality  
+TC3: According to requirement, check whether input field is working properly using different kinds of Test Data (e.g.
+a. empty input behaviour – should not proceed or should show validation message                                                                                                                        
+b. Input with whitespaces (e.g. "a b c") – are spaces handled correctly?
+c. Long string input (>10,000 characters) – check performance
+d. Input with only special characters (#@!) – should process normally
+TC4: Check whether the website gives the correct output for the given input after clicking on submit button
+TC5: Check the functionality of back to home button
+TC6: Accessibility - Ensuring that the website is usable by the people with disabilities
+
+Automation Test Cases:  
+  
+TC1: Verify the user is able to login with correct credentials
+TC2: Verify the user is not able to login with invalid credentials
+TC3: Verify the user is able to register properly
+TC4: Valid input with repeating pattern "abcabcbb" abc, length 3 
+TC5: Input with all same characters "aaaaa" a, length 1 
+TC3: Input with all unique characters "abcdef" abcdef, length 6 
+TC4: Mixed input with digits "a1b2c3d4" a1b2c3d4, length 8 
+TC5: Input with symbols and letters "a@b#c$d" a@b#c$d, length 7 
+TC6: Empty input "" Show validation error or stay on same page
