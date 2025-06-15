@@ -1,0 +1,5 @@
+{
+  "INPUT_FIELD": "css:input#text-input",
+  "SUBMIT_BUTTON": "css:button#submit",
+  "RESULT_TEXT": "css:div#result"
+}
