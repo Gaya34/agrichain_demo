@@ -1,0 +1,7 @@
+{
+  "result_text":{
+        "valuetype": "locator",
+        "value": "css:div#result",
+        "type": "text"
+  }
+}
