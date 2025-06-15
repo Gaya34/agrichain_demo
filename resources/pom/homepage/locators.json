@@ -1,5 +1,12 @@
 {
-  "INPUT_FIELD": "css:input#text-input",
-  "SUBMIT_BUTTON": "css:button#submit",
-  "RESULT_TEXT": "css:div#result"
+    "input_text_field":{
+        "valuetype": "locator",
+        "value": "css:input#text-input",
+        "type": "input"
+    },
+    "submit_button":{
+        "valuetype": "locator",
+        "value": "css:button#submit",
+        "type": "button"
+    }
 }
